@@ -4,15 +4,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000; /* Changed to black */
-    color: white; /* Text color changed to white for visibility */
+    background-color: #000; /* Background is black */
+    color: white; /* Text color is white for visibility */
 }
 
 #calculator-container {
-    background-color: #800080; /* Changed to purple */
+    background-color: #800080; /* Calculator background is purple */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Adjusted for contrast */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Shadow for contrast */
     text-align: center;
 }
 
@@ -22,8 +22,8 @@ input[type=number], button {
 }
 
 button {
-    background-color: #fff; /* Button background to white for contrast */
-    color: #000; /* Button text color to black */
+    background-color: #fff; /* Button background is white */
+    color: #000; /* Button text color is black */
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -31,5 +31,5 @@ button {
 }
 
 button:hover {
-    background-color: #eee; /* Lighter shade when hovered */
+    background-color: #008000; /* Button background turns green on hover */
 }
